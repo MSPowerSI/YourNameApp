@@ -1,12 +1,12 @@
 <h1 align='center'>Your Name</h1>
-<p>Bot criado para ajudar na moderação e organização de Servidor do Discord.</p>
+<p>Site para comprar um ticket para levar o seu nome para a Lua em 2024.</p>
 <p><b>Tecnologias:</b> <i>NodeJS e Express</i></p>
 
 <hr>
   <h2 align='center'>Observações</h2>
   <p>
     <ul>
-      <li><code>app.js</code> : arquivo principal do bot;</li>
+      <li><code>app.js</code> : arquivo principal;</li>
       <li><code>package.json</code> : pacotes utilizados no projeto;</li>
       <li><code>exemplo.env</code> : arquivo de exemplo para configurar as variaveis de ambiente;</li>
       <li><code>/html</code> : pasta onde contém todos as arquivos de interface;</li>
