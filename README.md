@@ -1,1 +1,29 @@
-# YourNameApp
+<h1 align='center'>Your Name</h1>
+<p>Bot criado para ajudar na moderação e organização de Servidor do Discord.</p>
+<p><b>Tecnologias:</b> <i>NodeJS e Express</i></p>
+
+<hr>
+  <h2 align='center'>Observações</h2>
+  <p>
+    <ul>
+      <li><code>app.js</code> : arquivo principal do bot;</li>
+      <li><code>package.json</code> : pacotes utilizados no projeto;</li>
+      <li><code>exemplo.env</code> : arquivo de exemplo para configurar as variaveis de ambiente;</li>
+      <li><code>/html</code> : pasta onde contém todos as arquivos de interface;</li>
+    </ul>
+  </p>
+<hr>
+<hr>
+  <h2 align='center'>Iniciando</h2>
+  <p>
+    <ul>
+      <li>As dependências devem ser instaladas da seguinte forma:</li>
+      <li><code>Terminal:</code> : "npm install"</li>
+      <li>Altere os valores das variaveis de ambiente no arquivo exemplo.env e após isso renomeie o arquivo para .env</li>
+      <li>Após instalar as dependencias e configurar as variaveis de ambiente, vamos inicia-lo: </li>
+      <li><code>Terminal:</code> : "node app"</li>
+    </ul>
+  </p>
+<hr>
+  
+  <h5 align='center'>Made by: <a>MSPower</a></h5>
