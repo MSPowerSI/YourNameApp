@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+  <title>Your Name</title>
+  <link rel="icon" href="../assets/nasa.ico">
+  <script src="https://www.paypalobjects.com/api/checkout.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css'>
+  <link rel="stylesheet" href="../main/css.css">
+</head>
+
+<body>
+
+  <div id="navbar" class="noselect">
+    <a class="margin box">Your Name</a>
+    <div id="centralDiv">
+      <a href="donation" id="donation">Comprar</a>
+    </div>
+    <div class="box">
+    </div>
+  </div>
+
+  <div id="main" class="noselect">
+    <div id="card" class="content">
+      <div class="card">
+        <div class="topCard">
+          <h2 class="title">Já pensou em levar seu nome para as alturas?</h2>
+          <span class="secondText">Agora é possível, por apenas R$5.00</span>
+        </div>
+        <div class="mediaCard"></div>
+        <div class="bottomCard">
+          <span class="botttomText">Seu nome irá acompanhar os astronautas na próxima jornada nas estrelas</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <a id="button"></a>
+  <div id="notification"></div>
+
+  <div id="ticket" class="ticket">
+    <div class="ticket_rocket">
+      <img src="../assets/ticket.jpg" alt="Rocket" class="ticket_img">
+    </div>
+    <div class="ticket_content">
+      <div class="ticket_title">
+        <h1 class="heading__primary">Boarding Pass: Future Lua Mission</h1> 
+      </div>
+      <div id="nameTicket" class="ticket_description"></div>
+      <div class="ticket_details">
+        <p class="ticket_detail"><span class="icons icons-grey"><i class="fas fa-clock"></i> </span>22/06/2024</p>
+        <p class="ticket_detail"><span class="icons icons-yellow"><i class="fas fa-file-invoice-dollar"></i>
+          </span>R$ 5.00</p>
+      </div>
+    </div>
+    <div class="ticket_price">R$5.00</div>
+  </div>
+
+  <div id="donationPop">
+    <div id="donationBox">
+      <a href="" id="closeDonos">X</a>
+      <div id="donoHeader">
+        <h1>Ticket</h1>
+        <h3>Leve seu nome ao espaço!</h3>
+      </div>
+      <div id="donoAmmount">
+        <span>E-mail:</span>
+        <div class="donoInput"><input class="validate" id="emailInput" type="email" required></div>
+        <span id="msgEmail" style="display:none;color:#c00">Digite um e-mail válido</span>
+        <span>Nome:</span>
+        <div class="donoInput"><input class="validate" id="nameInput" type="text" required min="2"></div>
+        <span id="msgName" style="display:none;color:#c00">Digite um nome válido (Entre 3-30 characteres)</span>
+        <div class="donoInput"><span>Valor: R$5</span></div>
+        <div id="paypal-button"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="../main/app.js"></script>
+</body>
+
+</html>
