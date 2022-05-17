@@ -95,7 +95,7 @@ app.post('/api/confirm-transaction', function (req, res) {
         payer_id: payerID,
         transactions: [{
           amount: {
-            total: 5,
+            total: 5, // Idealmente colocar no banco de dados ou passar na request
             currency: 'BRL'
           }
         }]
