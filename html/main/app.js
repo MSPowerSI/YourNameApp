@@ -11,7 +11,7 @@ $(document).ready(function () {
   });
 
   paypal.Button.render({
-    env: 'sandbox', // Or 'production'
+    env: 'production', // 'sandbox' Or 'production'
     style: {
       color:  'blue',
       shape:  'pill',
