@@ -27,4 +27,3 @@
 <hr>
   
   <h5 align='center'>Made by: <a>MSPower</a></h5>
-[![Netlify Status](https://api.netlify.com/api/v1/badges/6b66d34a-1b3b-4143-8f88-47c8ff8a6ffe/deploy-status)](https://app.netlify.com/sites/gentle-arithmetic-f6e41e/deploys)
